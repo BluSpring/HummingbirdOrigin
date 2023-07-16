@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 5.0,
+    "name": "Hummingbird Air Dweller Power"
+  },
+  "condition": {
+    "type": "origins:creative_flying"
+  },
+  "name": "Air Dweller",
+  "description": "Due to the fact that they spend ample time in the air, they’ve adapted to be able to function properly this way as well. While in the air, you have the ability to break items just as you would regularly."
+}

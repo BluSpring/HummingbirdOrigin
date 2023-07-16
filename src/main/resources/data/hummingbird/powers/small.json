@@ -1,0 +1,53 @@
+{
+  "type": "origins:multiple",
+  "modify_size": {
+    "type": "extraorigins:modify_size",
+    "scale_types": [
+      "pehkui:width",
+      "pehkui:height",
+      "pehkui:drops",
+      "pehkui:visibility"
+    ],
+    "scale": 0.5
+  },
+  "modify_hitbox_width": {
+    "type": "extraorigins:modify_size",
+    "scale_types": [
+      "pehkui:hitbox_width"
+    ],
+    "scale": 2
+  },
+  "attribute_modifiers": {
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "name": "Origin modifier",
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": -0.015
+      },
+      {
+        "name": "Origin modifier",
+        "attribute": "reach-entity-attributes:attack_range",
+        "operation": "addition",
+        "value": -0.25
+      },
+      {
+        "name": "Origin modifier",
+        "attribute": "reach-entity-attributes:reach",
+        "operation": "addition",
+        "value": -1
+      }
+    ]
+  },
+  "jump_modifier": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "name": "Origin modifier",
+      "operation": "multiply_total",
+      "value": -0.3333
+    }
+  },
+  "name": "World's Smallest Bird",
+  "description": "Hummingbirds are known to be very small. Because of this, the player is half of a block tall. "
+}

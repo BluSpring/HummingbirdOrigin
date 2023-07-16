@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_attribute",
+  "attribute": "minecraft:generic.movement_speed",
+  "modifier": {
+    "operation": "set_total",
+    "value": 0.04
+  },
+  "condition": {
+    "type": "origins:creative_flying",
+    "inverted": true
+  },
+  "name": "Weak Legs",
+  "description": "Hummingbirds naturally are made for flight, and flight alone. When on the ground, you have slowness, and cannot jump particularly high."
+}

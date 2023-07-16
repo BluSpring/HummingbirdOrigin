@@ -1,0 +1,18 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 35,
+  "entity_action": {
+    "type": "origins:feed",
+    "food": 4,
+    "saturation": 3
+  },
+  "condition": {
+    "type": "origins:in_block",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "c:flowers"
+    }
+  },
+  "name": "Nectar Drinker",
+  "description": "Humming birds rely on the nectar of flowers. Because of this, humming birds don’t eat any traditional food. Their hunger bar is filling up by walking through flowers, as if drinking the nectar. "
+}

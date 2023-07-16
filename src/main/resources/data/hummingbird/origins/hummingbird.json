@@ -2,9 +2,15 @@
   "powers": [
     "hummingbird:creative_flight",
     "hummingbird:flight_speed",
+    "hummingbird:fuel_consumption",
+
     "hummingbird:air_dweller",
     "hummingbird:small",
+
     "hummingbird:floral_consumption",
+    "hummingbird:eat_plant_only",
+    "hummingbird:nectar_drinker",
+
     "hummingbird:docile",
     "origins:light_armor",
     "hummingbird:weak_legs"

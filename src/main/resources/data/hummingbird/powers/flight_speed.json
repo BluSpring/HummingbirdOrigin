@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_air_speed",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 1.4
+  },
+  "name": "Flight Speed",
+  "description": "While in the air, you have what's basically Speed 2."
+}
