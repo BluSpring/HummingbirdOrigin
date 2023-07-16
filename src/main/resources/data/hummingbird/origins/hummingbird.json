@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "hummingbird:creative_flight",
+    "hummingbird:flight_speed",
+    "hummingbird:air_dweller",
+    "hummingbird:small",
+    "hummingbird:floral_consumption",
+    "hummingbird:docile",
+    "origins:light_armor",
+    "hummingbird:weak_legs"
+  ],
+  "icon": "minecraft:dandelion",
+  "impact": 2,
+  "order": 7
+}

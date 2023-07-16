@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "hummingbird",
+  "version": "${version}",
+  "name": "HummingbirdOrigin",
+  "description": "A custom Hummingbird origin, made for Shroomicidal.",
+  "authors": [
+    "BluSpring"
+  ],
+  "contact": {
+    "repo": "https://github.com/BluSpring/HummingbirdOrigin"
+  },
+  "license": "MIT",
+  "icon": "assets/hummingbird/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.bluspring.hummingbirdorigin.client.HummingbirdOriginClient"
+    ],
+    "main": [
+      "xyz.bluspring.hummingbirdorigin.HummingbirdOrigin"
+    ]
+  },
+  "mixins": [
+    "HummingbirdOrigin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "origins": ">=1.10.0",
+    "pehkui": ">=3.7.7",
+    "fabric-language-kotlin": ">=1.9.6+kotlin.1.8.22"
+  }
+}
